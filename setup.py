@@ -10,8 +10,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'awsupdatecredentials=scripts.update-credentials_new:main',
-            'awssetprofile=scripts.set-default-profile:main'
+            'awsupdatecredentials=scripts.update_credentials_new:main',
+            'awssetprofile=scripts.set_default_profile:main'
         ]
     }
 )
